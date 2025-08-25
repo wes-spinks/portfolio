@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
     plugins: [react(), tailwindcss()],
     build: {
-            base: 'https://wes-spinks.github.io/spinks.work/',
+            base: '/spinks.work/',
             assetsDir: './assets',
             watch: false,
         },
