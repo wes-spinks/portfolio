@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://wes-spinks.github.io/spinks.work/",
+  "homepage": "https://wes-spinks.github.io/",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
