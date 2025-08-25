@@ -1,9 +1,9 @@
 {
-  "name": "wes",
+  "name": "spinks.work",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
-  "homepage": "https://wes-spinks.github.io/",
+  "homepage": "https://wes-spinks.github.io/spinks.work/",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
@@ -33,5 +33,9 @@
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.11",
     "vite": "^7.0.4"
+  },
+  "moduleFileExtensions": {
+    "js",
+    "jsx"
   }
 }
