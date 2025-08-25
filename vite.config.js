@@ -8,7 +8,7 @@ export default defineConfig({
             base: '/plots/',
             outDir: './docs', // relative to index.html
             assetsDir: './assets',
-            watch: true,
+            watch: false,
         },
 	publicDir: './public',
         resolve: {
