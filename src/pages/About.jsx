@@ -6,7 +6,6 @@ export default function About() {
           [Software, Infrastructure, Retail, Manufacturing, Wildlife] Engineer
         </h3>
 	<h4>
-        <p className="text-gold/80 text-lg">
           <ul>
             <li>A backend engineer but I created this React Vite app to demonstrate familiarity with frontends.
             </li>
@@ -30,7 +29,6 @@ export default function About() {
             </li>
             <center><img src="./double_vee_es_favicon.png"></img></center>
           </ul>
-        </p>
 	</h4>
       </div>
     );
