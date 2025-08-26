@@ -21,6 +21,14 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+li {
+  font-size: 1.4;
+  line-height: 2.0;
+  text-align: left;
+  margin-bottom: 13px;
+  color: #213547;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
