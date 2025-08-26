@@ -6,7 +6,6 @@ export default defineConfig({
     plugins: [react(), tailwindcss()],
     build: {
             base: '/spinks.work/',
-            assetsDir: 'spinks.work/assets',
             watch: false,
         },
 	publicDir: './public',
