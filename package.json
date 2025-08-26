@@ -1,11 +1,10 @@
 {
   "name": "spinks.work",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
-  "homepage": "https://wes-spinks.github.io/spinks.work",
+  "homepage": "https://wes-spinks.github.io",
   "scripts": {
-    "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite --host",
