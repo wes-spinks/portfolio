@@ -57,6 +57,7 @@ li {
 ul {
   display: flex;
   flex-direction: column;
+  min-width: 240px;
   gap: 10px; /* Adds 10px space between flex items */
   font-size: 1.8;
 }
