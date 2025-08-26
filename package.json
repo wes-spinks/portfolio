@@ -3,11 +3,11 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://wes-spinks.github.io/",
+  "homepage": "https://wes-spinks.github.io/spinks.work",
   "scripts": {
+    "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "build": "vite build",
     "dev": "vite --host",
     "lint": "eslint .",
     "preview": "vite preview"
