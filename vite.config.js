@@ -2,10 +2,11 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
-export default defineConfig({
+export default defineConfig(({ command }) => {
+  const config = {
     plugins: [react(), tailwindcss()],
     build: {
-            base: '/spinks.work/',
+            base: '/',
             watch: false,
         },
 	publicDir: './public',
@@ -14,4 +15,11 @@ export default defineConfig({
                         $lib: './src/lib',
                 },
         },
+    }
+
+  if (command !== 'serve') {
+      config.base = '/spinks.work/'
+  }
+
+  return config
 });
