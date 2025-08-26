@@ -9,7 +9,7 @@ function App() {
     <Router basename="/spinks.work">
       <div className="min-h-screen bg-dark text-gold">
         <nav className="p-4 flex justify-between border-b border-gold">
-          <h2 className="text-2xl font-bold"><a href="https://www.linkedin.com/in/wspinks"><img src="/linkedin_icon.png" alt="linkedin" width="20" height="20"></img>wspinks</a></h2>
+          <h2 className="text-2xl font-bold"><a href="https://www.linkedin.com/in/wspinks"><img src="./linkedin_icon.png" alt="linkedin" width="20" height="20"></img>wspinks</a></h2>
           <div className="flex gap-4">
             <Link to="/">Home</Link>
             <Link to="/projects">Projects</Link>
