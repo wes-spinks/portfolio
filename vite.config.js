@@ -18,8 +18,7 @@ export default defineConfig(({ command }) => {
     }
 
   if (command !== 'serve') {
-      config.base = '/'
-     // config.base = '/spinks.work/'
+     config.base = '/portfolio/'
   }
 
   return config
