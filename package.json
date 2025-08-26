@@ -5,8 +5,9 @@
   "type": "module",
   "homepage": "https://wes-spinks.github.io/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite --host",
     "lint": "eslint .",
     "preview": "vite preview"
