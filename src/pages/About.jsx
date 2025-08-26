@@ -27,7 +27,7 @@ export default function About() {
             <li>Extremely effective written and oral communication skills working with technical, non-technical, 
               internal, and external vendor relationships.
             </li>
-            <center><img src="/double_vee_es_favicon.png"></img></center>
+            <center><img src="./double_vee_es_favicon.png"></img></center>
           </ul>
         </p>
       </div>
