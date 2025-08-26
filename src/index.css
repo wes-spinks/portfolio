@@ -29,7 +29,6 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
   background-color: #cac8c2;
@@ -46,11 +45,16 @@ h3 {
   text-align: center
 }
 
+h4 {
+  font-size: 1.8em;
+  line-height: 1.0;
+}
+
 li {
   font-size: 1.4;
-  line-height: 2.0;
+  line-height: 1.6;
   text-align: left;
-  margin-bottom: 13px;
+  margin-bottom: 6px;
   color: #213547;
 }
 

@@ -5,7 +5,7 @@ export default function About() {
         <h3 className="text-4xl font-bold mb-4">
           [Software, Infrastructure, Retail, Manufacturing, Wildlife] Engineer
         </h3>
-	<h4>
+	<h4 className="text-4xl">
           <ul>
             <li>A backend engineer but I created this React Vite app to demonstrate familiarity with frontends.
             </li>
