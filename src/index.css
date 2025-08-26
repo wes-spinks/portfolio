@@ -47,7 +47,7 @@ h3 {
 }
 
 li {
-  font-size: 0.9;
+  font-size: 1.4;
   line-height: 2.0;
   text-align: left;
   margin-bottom: 13px;
@@ -58,6 +58,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 10px; /* Adds 10px space between flex items */
+  font-size: 1.8;
 }
 
 button {

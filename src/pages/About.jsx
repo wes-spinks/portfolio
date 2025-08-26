@@ -1,12 +1,10 @@
 // About.jsx
 export default function About() {
     return (
-      <div className="p-4 mx-auto">
+      <div className="p-2 mx-auto">
         <h3 className="text-4xl font-bold mb-4">
           [Software, Infrastructure, Retail, Manufacturing, Wildlife] Engineer
         </h3>
-      </div>
-      <div className="p-4 mx-auto">
 	<h4>
           <ul>
             <li>A backend engineer but I created this React Vite app to demonstrate familiarity with frontends.
