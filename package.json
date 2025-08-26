@@ -1,9 +1,9 @@
 {
   "name": "spinks.work",
   "private": true,
-  "version": "0.0.2",
+  "version": "1.0.0",
   "type": "module",
-  "homepage": "https://wes-spinks.github.io",
+  "homepage": "https://spinks.work",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
